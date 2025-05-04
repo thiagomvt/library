@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+header{
+    height: 5vh;
+    background-color: pink;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+}
+
+.sidebar{
+    min-width: 15vw;
+    background-color: darkgreen;
+}
+
+.shelf{
+    height: 80vh;
+    background-color: rgb(25, 0, 83);
+    padding: 5vh;
+    gap: 5vh;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw; 
+    grid-template-rows: 30vh;
+}
+
+.card{
+    max-height: 30vh;
+    max-width: 20vh;
+    background-color: aliceblue;
+    border-radius: 5vh;
+}
